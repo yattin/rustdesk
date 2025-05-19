@@ -13,12 +13,7 @@ use tauri_winrt_notification::{Duration, Sound, Toast};
 #[macro_export]
 macro_rules! my_println{
     ($($arg:tt)*) => {
-        #[cfg(not(windows))]
         println!("{}", format_args!($($arg)*));
-        #[cfg(windows)]
-        crate::platform::message_box(
-            &format!("{}", format_args!($($arg)*))
-        );
     };
 }
 
