@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-RustDesk is an open-source remote desktop software written primarily in Rust. It provides a secure and configurable way to access and control devices remotely. RustDesk supports multiple platforms and offers features like self-hosting, P2P connections, and end-to-end encryption.
+RustDesk is an open-source remote desktop software written primarily in Rust. It provides a secure and configurable way to access and control devices remotely.RustDesk supports multiple platforms and offers features like self-hosting, P2P connections, and end-to-end encryption.
 
 ## 2. Key Components
 
@@ -126,4 +126,3 @@ RustDesk employs a sophisticated networking model to establish connections betwe
 *   **Cross-Platform:** The combination of a Rust core with a platform abstraction layer and a Flutter UI makes RustDesk inherently cross-platform.
 *   **Security Focus:** End-to-end encryption and public key cryptography are integral to the design.
 *   **Modularity:** The Rust backend's library-based structure allows for better maintainability and potential reuse of components.
-```
